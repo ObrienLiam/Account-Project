@@ -22,7 +22,7 @@ public class AccountServices {
 		counter++;
 	}
 	
-	public Accounts getAccountFromMap(Accounts accountToGet)
+	public Accounts getAccountFromMap(Integer accountToGet)
 	{
 		return accountMap.get(accountToGet);
 	}
