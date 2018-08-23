@@ -26,4 +26,9 @@ public class AccountServices {
 	{
 		return accountMap.get(accountToGet);
 	}
+	
+	public Map<Integer, Accounts> returnMap()
+	{
+		return accountMap;
+	}
 }
