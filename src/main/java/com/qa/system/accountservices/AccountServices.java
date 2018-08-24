@@ -31,4 +31,21 @@ public class AccountServices {
 	{
 		return accountMap;
 	}
+
+	public Integer countFirstName(String compare) {
+		
+		int occurance = 0;
+		System.out.println(compare);
+		
+		for (int i=1; i <= accountMap.size() ; i++)
+		{
+			System.out.println(accountMap.get(i));
+			if ( accountMap.get(i).getFirstName().equals(compare) )
+			{
+				occurance ++;
+			}
+		}
+		
+		return occurance;
+	}
 }
